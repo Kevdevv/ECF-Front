@@ -1,0 +1,10 @@
+.top {
+    height: 110px;
+    background-color: #47555E;
+    display: flex;
+}
+
+.logo {
+    width: 192px;
+    height: 109px;
+}
