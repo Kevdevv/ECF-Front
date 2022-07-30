@@ -16,23 +16,23 @@ const Category = () => {
         <img className='category-image' src={Mariage} alt='logo' />
       </article>
       <article>
-        <h2>Grossesse</h2>
+        <h2><Link to='/grossesse'>Grossesse</Link></h2>
         <img className='category-image' src={Grossesse} alt='logo' />
       </article>
       <article>
-        <h2>Bébé</h2>
+        <h2><Link to='/bebe'>Bébé</Link></h2>
         <img className='category-image' src={Bébé} alt='logo' />
       </article>
       <article>
-        <h2>Famille</h2>
+        <h2><Link to='/famille'>Famille</Link></h2>
         <img className='category-image' src={Famille} alt='logo' />
       </article>
       <article>
-        <h2>Baptême</h2>
+        <h2><Link to='/bapteme'>Baptême</Link></h2>
         <img className='category-image' src={Baptême} alt='logo' />
       </article>
       <article>
-        <h2>Couple</h2>
+        <h2><Link to='/couple'>Couple</Link></h2>
         <img className='category-image' src={Couple} alt='logo' />
       </article>
     </main>
