@@ -8,14 +8,15 @@ import Couple from 'Pages/Couple/Couple';
 import Bapteme from 'Pages/Bapteme/Bapteme';
 import Famille from 'Pages/Famille/Famille';
 import Bebe from 'Pages/Bebe/Bebe';
+import Prestation from 'Pages/Prestation/Prestation'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className='App'>
     <Router>
         <Header />
       <Routes>
+          <Route path="/prestation" element={<Prestation />} />
           <Route path="/couple" element={<Couple />} />
           <Route path="/bapteme" element={<Bapteme />} />
           <Route path="/famille" element={<Famille />} />
@@ -26,7 +27,6 @@ function App() {
           <Route path="/" element={<Landing />} />
       </Routes>
     </Router>
-    </div>
   );
 }
 

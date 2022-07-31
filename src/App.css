@@ -136,10 +136,8 @@ table {
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
 
-.App {
+body {
   background-color: #D4ECDD;
   font-family: 'Montserrat', sans-serif;
   color: #112031;
-  font-weight: 600;
-  height: 100%;
 }
