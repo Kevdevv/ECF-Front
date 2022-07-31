@@ -9,13 +9,23 @@
     height: 246px;
 }
 
-h2, a {
+.category-image:hover {
+    cursor: pointer;
+}
+
+h2 {
     text-align: center;
     margin-bottom: 25px;
     margin-top: 25px;
     font-size: 32px;
     font-weight: 600;
     color: #112031;
-    text-decoration: none;
+    
+}
+
+@media screen and (min-width:768px) {
+    .main-category {
+        flex-direction: row;
+    }
 }
 

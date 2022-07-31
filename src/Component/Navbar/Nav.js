@@ -1,6 +1,9 @@
 import React from 'react'
 import 'Component/Navbar/Nav.css'
 import { useState } from 'react'
+import Img from 'Images/Logo-cantin.png';
+import {Link} from 'react-router-dom';
+
 
 function Nav() {
 
@@ -12,7 +15,9 @@ function Nav() {
 
   return (
     <nav className={`navbar ${showLinks ? "show-nav" : "hide-nav"}`}>
-        <div className='navbar-logo'>Logo</div>
+         <Link to='/'>
+        <img className='logo' src={Img} alt='logo'/>
+        </Link>
         <ul className='navbar-links'>
             <li className='navbar-item'>
                 <a href='/' className='navbar-link'>

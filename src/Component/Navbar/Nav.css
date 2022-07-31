@@ -7,12 +7,18 @@
     position: fixed;
     width: 100%;
     min-height: 75px;
-    background-color: black;
+    background-color: #47555E;
     color: white;
 }
 
 a {
-    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.logo {
+    width: 192px;
+    height: 109px;
 }
 
 .navbar-links {
@@ -43,7 +49,7 @@ a {
         bottom: 0;
         height: 100vh;
         padding: 2rem;
-        background: black;
+        background-color: #47555E;
         visibility: hidden;
     }
 
@@ -62,8 +68,8 @@ a {
     .navbar-burger {
         display: block;
         position: fixed;
-        top: 1rem;
-        right: 1rem;
+        top: 25px;
+        right: 20px;
     }
 
     .navbar-burger:hover {
@@ -108,5 +114,10 @@ a {
 
     .show-nav .burger-bar::after {
         transform: rotate(-45deg);
+    }
+
+    .logo {
+        width: 100px;
+        height: 60px;
     }
 }

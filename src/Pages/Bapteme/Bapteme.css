@@ -4,9 +4,14 @@
     align-items: center;
 }
 
-.bapteme1, .bapteme4 {
-    width: 294px;
+.bapteme4 {
     margin-top: 25px;
+    width: 294px;
+}
+
+.bapteme1 {
+    margin-top: 125px;
+    width: 294px;
 }
 
 .bapteme2, .bapteme3, .bapteme5 {

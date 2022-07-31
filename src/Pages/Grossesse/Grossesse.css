@@ -4,10 +4,16 @@
     align-items: center;
 }
 
-.grossesse1, .grossesse5 {
+.grossesse5 {
     width: 294px;
     height: 441px;
     margin-top: 25px;
+}
+
+.grossesse1 {
+    width: 294px;
+    height: 441px;
+    margin-top: 125px;
 }
 
 .grossesse2, .grossesse3, .grossesse4 {

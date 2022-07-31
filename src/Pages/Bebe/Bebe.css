@@ -4,9 +4,14 @@
     align-items: center;
 }
 
-.bebe1, .bebe3, .bebe4, .bebe5 {
+.bebe3, .bebe4, .bebe5 {
     width: 294px;
     margin-top: 25px;
+}
+
+.bebe1 {
+    width: 294px;
+    margin-top: 125px; 
 }
 
 .bebe2 {
