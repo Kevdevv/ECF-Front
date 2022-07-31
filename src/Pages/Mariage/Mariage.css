@@ -1,0 +1,16 @@
+.mariage1, .mariage4 {
+    width: 294px;
+    height: 441px;
+    margin-top: 25px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mariage2, .mariage3, .mariage5 {
+    width: 294px;
+    margin-top: 25px;
+}

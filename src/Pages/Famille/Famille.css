@@ -1,0 +1,10 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.famille {
+    width: 294px;
+    margin-top: 25px;
+}

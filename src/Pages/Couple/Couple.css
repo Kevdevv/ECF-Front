@@ -1,0 +1,16 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.couple1 {
+    width: 294px;
+    height: 441px;
+    margin-top: 25px;
+}
+
+.couple2, .couple3, .couple4, .couple5 {
+    width: 294px;
+    margin-top: 25px;
+}

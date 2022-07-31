@@ -1,0 +1,16 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grossesse1, .grossesse5 {
+    width: 294px;
+    height: 441px;
+    margin-top: 25px;
+}
+
+.grossesse2, .grossesse3, .grossesse4 {
+    width: 294px;
+    margin-top: 25px;
+}

@@ -1,0 +1,16 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bapteme1, .bapteme4 {
+    width: 294px;
+    margin-top: 25px;
+}
+
+.bapteme2, .bapteme3, .bapteme5 {
+    width: 294px;
+    height: 441px;
+    margin-top: 25px;
+}

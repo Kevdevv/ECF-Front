@@ -1,13 +1,13 @@
 import './App.css';
-import Header from 'Header/Header';
-import Landing from 'Landing/Landing';
-import Category from 'Category/Category'
-import Mariage from 'Mariage/Mariage';
-import Grossesse from 'Grossesse/Grossesse';
-import Couple from 'Couple/Couple';
-import Bapteme from 'Bapteme/Bapteme';
-import Famille from 'Famille/Famille';
-import Bebe from 'Bebe/Bebe';
+import Header from 'Component/Header/Header';
+import Landing from 'Pages/Landing/Landing';
+import Category from 'Pages/Category/Category'
+import Mariage from 'Pages/Mariage/Mariage';
+import Grossesse from 'Pages/Grossesse/Grossesse';
+import Couple from 'Pages/Couple/Couple';
+import Bapteme from 'Pages/Bapteme/Bapteme';
+import Famille from 'Pages/Famille/Famille';
+import Bebe from 'Pages/Bebe/Bebe';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {

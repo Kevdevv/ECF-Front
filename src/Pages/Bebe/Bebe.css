@@ -1,0 +1,16 @@
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bebe1, .bebe3, .bebe4, .bebe5 {
+    width: 294px;
+    margin-top: 25px;
+}
+
+.bebe2 {
+    width: 294px;
+    height: 441px;
+    margin-top: 25px;
+}
