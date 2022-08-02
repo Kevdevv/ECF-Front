@@ -23,6 +23,10 @@ h2 {
     
 }
 
+.top {
+    margin-top: 125px;
+}
+
 @media screen and (min-width:768px) {
     .main-category {
         flex-direction: row;
