@@ -11,7 +11,7 @@ const Prestation = () => {
   return (
     <div className='prestation'>
       <article>
-        <p>
+        <p className='first'>
           “Juste moi” 130€<br/>
           Séance pour une personne, en exterieur ou en studio
         </p>

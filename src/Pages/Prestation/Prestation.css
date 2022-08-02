@@ -9,11 +9,6 @@ article {
     align-items: center;
 }
 
-.prestation {
-    position: absolute;
-    top: 89px;
-}
-
 p {
     margin-top: 89px;
     margin-bottom: 53px;
@@ -21,4 +16,8 @@ p {
     margin-right: 15px;
     text-align: center;
     line-height: 1.6rem;
+}
+
+.first {
+    margin-top: 130px;
 }

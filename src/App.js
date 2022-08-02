@@ -9,6 +9,7 @@ import Famille from 'Pages/Famille/Famille';
 import Bebe from 'Pages/Bebe/Bebe';
 import Prestation from 'Pages/Prestation/Prestation'
 import Nav from 'Component/Navbar/Nav'
+import Footer from 'Component/Footer/Footer'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
           <Route path="/mariage" element={<Mariage />} />
           <Route path="/category" element={<Category />} />
           <Route path="/" element={<Landing />} />
-      </Routes>     
+      </Routes>
+      <Footer />     
     </Router>
   );
 }

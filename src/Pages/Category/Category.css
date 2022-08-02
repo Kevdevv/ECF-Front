@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .category-image {
@@ -41,6 +42,12 @@ h2 {
 
     .top {
         margin-top: 26px;
+    }
+}
+
+@media screen and (min-width:1139px) {
+    .main-category {
+        height: 100vh;
     }
 }
 

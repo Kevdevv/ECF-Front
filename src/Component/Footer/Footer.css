@@ -1,0 +1,15 @@
+.footer {
+    background: #47555E;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    bottom: 0;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+}
