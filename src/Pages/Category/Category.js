@@ -9,13 +9,15 @@ import Couple from 'Images/Couple.png'
 import { Link } from 'react-router-dom';
 
 const Category = () => {
+  console.log({Mariage}) 
   return (
     <main className='main-category'>
       <article>
         <h2 className='top'>Mariage</h2>
         <Link to='/mariage'>
         <img className='category-image' src={Mariage} alt='logo' />
-        </Link>        
+        </Link>
+               
       </article>
       <article>
         <h2>Grossesse</h2>

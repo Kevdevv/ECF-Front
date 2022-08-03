@@ -39,6 +39,11 @@ function Nav() {
                   Contact
                 </a>
             </li>
+            <li className='navbar-item'>
+                <a href='/gallerie' className='navbar-link'>
+                  Galerie
+                </a>
+            </li>
         </ul>
         <button className='navbar-burger' onClick={handleShowLinks}>
             <span className='burger-bar'></span>
