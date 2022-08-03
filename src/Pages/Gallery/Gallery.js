@@ -21,7 +21,7 @@ const Gallery = () => {
     return (
         <>
             <div className='all-buttons'>
-                <button className='button' onClick={() => filterItem('bapteme')}>Bapteme</button>
+                <button className='button' onClick={() => filterItem('bapteme')}>Baptême</button>
                 <button className='button' onClick={() => filterItem('couple')}>Couple</button>
                 <button className='button' onClick={() => filterItem('famille')}>Famille</button>
                 <button className='button' onClick={() => filterItem('mariage')}>Mariage</button>

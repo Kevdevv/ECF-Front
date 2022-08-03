@@ -22,3 +22,56 @@ p {
 .first {
     margin-top: 130px;
 }
+
+.first-image {
+    width: 340px;
+    height: 246px;
+}
+
+@media screen and (min-width:1200px) {
+    .left {
+        float: left;
+        display: inline;
+        text-align: right;
+        margin-right: 71px;
+    }
+
+    .right {
+        float: right;
+        display: inline;
+        text-align: left;
+        margin-left: 71px;
+    }
+
+    p {
+        float: right;
+        margin-top: 160px;
+
+    }
+
+    #one {
+        margin-top: 213px;
+        text-align: left;
+        margin-left: 71px;
+    }
+
+    #family {
+        width: 520px;
+    }
+
+    .prestation {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .first-image {
+        margin-top: 64px;
+        width: 540px;
+        height: 364px;
+    }
+
+    .prestation-image {
+        width: 540px;
+        height: 364px;
+    }
+}
