@@ -1,0 +1,51 @@
+.button, .button-bottom {
+    background: #47555E;
+    color: white;
+    width: 10%;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.all-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.display-photo {
+    margin: 15px;
+}
+
+.block-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:768px) {
+    .button, .button-bottom {
+        margin-top: 150px;
+        width: 19%;
+        font-size: 0.8rem;
+    }
+
+    .all-buttons {
+        flex-wrap: wrap;
+    }
+
+    .button-bottom {
+        margin-top: 10px;
+    }
+
+    .photos {
+        width: 294px;
+    }
+}

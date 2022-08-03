@@ -1,5 +1,6 @@
 import React from 'react'
 import Photos from 'Pages/Gallery/Photos'
+import 'Pages/Gallery/Gallery.css'
 import { useState } from 'react'
 
 
@@ -22,16 +23,22 @@ const Gallery = () => {
             <div className='all-buttons'>
                 <button className='button' onClick={() => filterItem('bapteme')}>Bapteme</button>
                 <button className='button' onClick={() => filterItem('couple')}>Couple</button>
-                <button className='button' onClick={() => setItems(Photos)}>Tout</button>
+                <button className='button' onClick={() => filterItem('famille')}>Famille</button>
+                <button className='button' onClick={() => filterItem('mariage')}>Mariage</button>
+                <button className='button-bottom' onClick={() => filterItem('bebe')}>Bébé</button>
+                <button className='button-bottom' onClick={() => filterItem('grossesse')}>Grossesse</button>
+                <button className='button-bottom' onClick={() => setItems(Photos)}>Tout</button>
             </div>
 
-            <div className='search-result'>
+            <div className='block-photo'>
                 {
                     items.map((elem) => {
 
                         return (
                             <>
-                                <img src={elem.image} alt='img' />
+                            <div className='display-photo'>
+                                <img className='photos' src={elem.image} alt='img' />
+                                </div>
                             </>
                         )
                     })

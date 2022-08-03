@@ -30,18 +30,13 @@ function Nav() {
                 </a>
             </li>
             <li className='navbar-item'>
-                <a href='/category' className='navbar-link'>
-                  Categories
+                <a href='/gallerie' className='navbar-link'>
+                  Galerie
                 </a>
             </li>
             <li className='navbar-item'>
                 <a href='/contact' className='navbar-link'>
                   Contact
-                </a>
-            </li>
-            <li className='navbar-item'>
-                <a href='/gallerie' className='navbar-link'>
-                  Galerie
                 </a>
             </li>
         </ul>
