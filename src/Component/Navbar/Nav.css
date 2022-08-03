@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1.2rem;
     position: fixed;
     width: 100%;
     min-height: 75px;
@@ -22,12 +22,25 @@ a {
     height: 109px;
 }
 
+.facebook, .instagram {
+    width: 15px;
+    height: 15px;
+}
+
+.facebook, .instagram:hover {
+    cursor: pointer;
+}
+
+.facebook {
+    margin-right: 15px;
+}
+
 .navbar-links {
     display: flex;
 }
 
 .navbar-link {
-    padding: 0 0.3rem;
+    padding: 0 0.5rem;
     color: inherit;
 }
 
@@ -52,6 +65,15 @@ a {
         padding: 2rem;
         background-color: #47555E;
         visibility: hidden;
+    }
+
+    .facebook, .instagram {
+        width: 50px;
+        height: 50px;
+    }
+
+    .facebook {
+        margin-right: 30px;
     }
 
     .show-nav .navbar-links {

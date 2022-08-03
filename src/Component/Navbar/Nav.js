@@ -2,6 +2,8 @@ import React from 'react'
 import 'Component/Navbar/Nav.css'
 import { useState } from 'react'
 import Img from 'Images/Logo-cantin.png';
+import Facebook from 'Images/Facebook.png'
+import Instagram from 'Images/Instagram.png'
 import {Link} from 'react-router-dom';
 
 
@@ -38,6 +40,10 @@ function Nav() {
                 <a href='/contact' className='navbar-link'>
                   Contact
                 </a>
+            </li>
+            <li className='navbar-item'>
+            <img className='facebook' src={Facebook} alt='logo'/>
+            <img className='instagram' src={Instagram} alt='logo'/>
             </li>
         </ul>
         <button className='navbar-burger' onClick={handleShowLinks}>
