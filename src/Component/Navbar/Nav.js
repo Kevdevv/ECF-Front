@@ -41,9 +41,13 @@ function Nav() {
                   Contact
                 </a>
             </li>
-            <li className='navbar-item'>
+            <li className='navbar-item' >
+              <a href='https://fr-fr.facebook.com/' target="_blank" rel="noopener noreferrer" >
             <img className='facebook' src={Facebook} alt='logo'/>
+            </a>
+            <a href='https://www.instagram.com/?hl=fr' target="_blank" rel="noopener noreferrer">
             <img className='instagram' src={Instagram} alt='logo'/>
+            </a>
             </li>
         </ul>
         <button className='navbar-burger' onClick={handleShowLinks}>

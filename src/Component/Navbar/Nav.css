@@ -91,7 +91,7 @@ a {
     .navbar-burger {
         display: block;
         position: fixed;
-        top: 3px;
+        top: -2px;
         right: 20px;
     }
 

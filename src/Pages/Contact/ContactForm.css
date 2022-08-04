@@ -6,10 +6,23 @@ form {
     width: 100%;
 }
 
+.message {
+    text-align: center;
+    float: none;
+    margin-top: 0;
+    padding-top: 150px;
+}
+
+.block-message {
+    height: 100vh;
+    
+}
+
+
 .inside-form {
     background: #47555E;
     height: 60%;
-    width: 60%;
+    width: 80%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -24,7 +37,7 @@ label {
 }
 
 button {
-    width: 75%;
+    width: 70%;
     border-radius: 50px;
     border: none;
     height: 50px;
@@ -47,4 +60,14 @@ textarea {
     height: 177px;
     width: 80%;
     border-radius: 5px;
+}
+
+@media screen and (min-width:767px) {
+    button {
+        width: 50%;
+    }
+
+    .inside-form {
+        width: 40%;
+    }
 }
