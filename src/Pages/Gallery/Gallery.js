@@ -21,26 +21,19 @@ const Gallery = () => {
     return (
         <>
             <div className='all-buttons'>
-                <button className='button' onClick={() => filterItem('bapteme')}>Baptême</button>
-                <button className='button' onClick={() => filterItem('couple')}>Couple</button>
-                <button className='button' onClick={() => filterItem('famille')}>Famille</button>
-                <button className='button' onClick={() => filterItem('mariage')}>Mariage</button>
-                <button className='button-bottom' onClick={() => filterItem('bebe')}>Bébé</button>
-                <button className='button-bottom' onClick={() => filterItem('grossesse')}>Grossesse</button>
-                <button className='button-bottom' onClick={() => setItems(Photos)}>Tout</button>
+                <button  className='button' onClick={() => filterItem('bapteme')}>Baptême</button>
+                <button  className='button' onClick={() => filterItem('couple')}>Couple</button>
+                <button  className='button' onClick={() => filterItem('famille')}>Famille</button>
+                <button  className='button' onClick={() => filterItem('mariage')}>Mariage</button>
+                <button  className='button-bottom' onClick={() => filterItem('bebe')}>Bébé</button>
+                <button  className='button-bottom' onClick={() => filterItem('grossesse')}>Grossesse</button>
+                <button  className='button-bottom' onClick={() => setItems(Photos)}>Tout</button>
             </div>
 
             <div className='block-photo'>
                 {
                     items.map((elem) => {
-
-                        return (
-                            <>
-                            <div className='display-photo'>
-                                <img className='photos' src={elem.image} alt='img' />
-                                </div>
-                            </>
-                        )
+                        return <img key={elem.id} className='photos'  src={elem.image} alt='img' />
                     })
                 }
             </div>
