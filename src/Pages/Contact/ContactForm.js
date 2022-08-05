@@ -1,11 +1,11 @@
 import React from 'react'
 import 'Pages/Contact/ContactForm.css'
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm, ValidationError } from '@formspree/react'
 
 function ContactForm() {
-  const [state, handleSubmit] = useForm("xnqrazrk");
+  const [state, handleSubmit] = useForm("xnqrazrk")
   if (state.succeeded) {
-      return <div className='block-message'><p className='message'>Votre message a bien été envoyé!</p></div>;
+      return <div className='block-message'><p className='message'>Votre message a bien été envoyé!</p></div>
   }
   return (
       <form onSubmit={handleSubmit}>
@@ -40,11 +40,11 @@ function ContactForm() {
       </button>
       </div>
     </form>
-  );
+  )
 }
 function App() {
   return (
     <ContactForm />
-  );
+  )
 }
 export default App;
